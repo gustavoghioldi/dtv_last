@@ -1,0 +1,217 @@
+.caps_review_tab_widget_content {
+    position: relative;
+}
+.caps_review_tab_widget_content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.caps_review_tab_widget_content ul.wp-review-tabs li {
+    list-style: none;
+    display: block;
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 0;
+    padding: 0 !important;
+}
+.caps_review_tab_widget_content ul.has-1-tabs li {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+}
+.caps_review_tab_widget_content ul.has-2-tabs li {
+    
+}
+.caps_review_tab_widget_content ul.has-3-tabs li {
+    width: 33.33%;
+}
+.caps_review_tab_widget_content ul.has-4-tabs li {
+    width: 50%;
+}
+.caps_review_tab_widget_content .tab_title a {
+    display: block;
+    background: #f6f6f6;    
+    padding: 2px 0 4px;
+    line-height: 40px;
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 2px;
+}
+
+.caps_review_tab_widget_content .tab_title:last-child a{
+    margin-right: 0;
+}
+
+.caps_review_tab_widget_content .tab_title:first-child a {
+    margin-left: 0;
+    border-left: 0;
+}
+.caps_review_tab_widget_content .tab_title.selected a {
+    position: relative;
+}
+
+.caps_review_tab_widget_content .tab_title.selected a:before{
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+
+.caps_review_tab_widget_content .inside {
+    background: #fff;
+    padding-top: 4px;
+}
+.caps_review_tab_widget_content .tab-content li {
+     background: #f6f6f6;
+    margin-top: 4px;
+    padding-right: 5px;
+}
+.caps_review_tab_widget_content .tab-content li:last-child {
+    border: none;
+    margin-bottom: 0;
+}
+.caps_review_tab_widget_content .tab-content li:first-child {
+    margin-top: 0;
+}
+
+.caps_review_tab_thumb_small {
+    float: left;
+    margin-right: 12px;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.caps_review_tab_widget_content .tab-content li img{
+    width: 100%;
+}
+
+.caps_review_tab_thumb_large {
+    float: none;
+    max-width: 100%;
+    display: inline-block;
+    margin-bottom: 4px;
+    position: relative;
+}
+.caps_review_tab_widget_content h5 {
+    margin: 8px 0;
+    padding: 0;
+}
+.caps_review_tab_widget_content .wp-review-tab-postmeta {
+    color: #999;
+    font-size: 13px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.caps_review_tab_widget_content .wp-post-image {
+    margin: 0 !important;
+}
+
+
+
+/* Pagination */
+.caps_review_tab_widget_content .wp-review-tab-pagination {
+    margin: 0;
+    width: 100%;
+    padding-top: 0;
+    float: left;
+}
+.caps_review_tab_widget_content .wp-review-tab-pagination a {
+    margin: 0 15px;
+}
+.wp-review-tab-pagination a.next {
+    float: right;
+}
+
+/* Loading... */
+.wp-review-tab-loading:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.8);
+}
+.clear {
+    clear: both;
+}
+
+/* Rating... */
+.review-total-only.small-thumb:before{
+    left: -7px;
+    position: absolute;
+    content: '\f503';
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 8px/1 'Genericons';
+    vertical-align: middle;
+    top: 7px;
+}
+
+.sidebar review-total-star{
+
+}
+
+.sidebar .review-result-wrapper i{
+    font-size: 12px;
+}
+
+.sidebar .wp-review-tab-postmeta i{
+    margin-right: 5px;
+}
+
+.review-total-only.small-thumb {
+    font-size: 11px;
+    padding: 0 4px;
+    margin-top: 4px;
+    float: left;
+    min-width: 40px;
+    text-align: center;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 7px;
+    color: #fff;
+}
+
+.subtitle .review-total-only.small-thumb {
+    background: none;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.review-total-only.small-thumb.review-type-star {
+    background: none;
+    padding: 0;
+}
+.review-total-only.large-thumb {
+    position: absolute;
+    top: 0; right: 15px;
+}
+li:first-child .review-total-only.large-thumb {
+    top: 5px;
+    right: 15px;
+    display: block;
+}
+.review-total-only.small-thumb .review-result-wrapper i {
+    color: #fff !important;
+}
+.caps_review_tab_widget_content .has-4-tabs .tab_title.selected a {
+    border-bottom: 1px solid #E4E4E4;
+}
+.caps_review_tab_widget_content .has-4-tabs .tab_title:nth-child(3) a {
+    border-left: 0;
+}
+.title-right {
+    overflow: hidden;
+    position: relative;
+}

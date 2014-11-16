@@ -1,0 +1,374 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Access Areas v1.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-02-15 23:23:07+0000\n"
+"Last-Translator: Francesco Carpana\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: inc/class-undisclosedcaps.php:28
+#: inc/class-undisclosedcaps.php:198
+#@ wp-access-areas
+msgid "Manage Access Areas"
+msgstr "Gestione Aree d'Accesso"
+
+#: inc/class-undisclosedcaps.php:28
+#: inc/class-undisclosedusers.php:184
+#: inc/class-undisclosedusers.php:297
+#@ wp-access-areas
+msgid "Access Areas"
+msgstr "Aree d'Accesso"
+
+#: inc/class-undisclosedcaps.php:35
+#: inc/class-undisclosedusers.php:172
+#@ wp-access-areas
+msgid "You do not have permission to do this."
+msgstr "Il tuo utente non ha i permessi necessari per l'operazione in corso."
+
+#: inc/class-undisclosedcaps.php:48
+#@ wp-access-areas
+msgid "Please enter a Label."
+msgstr "Si prega di inserire un'etichetta"
+
+#: inc/class-undisclosedcaps.php:51
+#@ wp-access-areas
+msgid "You do not have permission to edit network wide user labels."
+msgstr "Non si dispone dei permessi necessari per modificare a livello di rete etichette utente."
+
+#: inc/class-undisclosedcaps.php:126
+#@ wp-access-areas
+msgid "Edit Access Area"
+msgstr "Modifica l'Area d'Accesso"
+
+#: inc/class-undisclosedcaps.php:128
+#: inc/class-undisclosedcaps.php:153
+#@ wp-access-areas
+msgid "Create Access Area"
+msgstr "Crea Area d'Accesso"
+
+#: inc/class-undisclosedcaps.php:143
+#@ wp-access-areas
+msgid "Access Area"
+msgstr "Area d'Accesso"
+
+#: inc/class-undisclosedcaps.php:144
+#@ wp-access-areas
+msgid "New Access Area"
+msgstr "Nuova Area d'Accesso"
+
+#: inc/class-undisclosedcaps.php:151
+#@ wp-access-areas
+msgid "Save changes"
+msgstr "Salva i cambiamenti"
+
+#: inc/class-undisclosedcaps.php:169
+#@ wp-access-areas
+msgid "Access Area created."
+msgstr "Area d'Accesso creata."
+
+#: inc/class-undisclosedcaps.php:172
+#@ wp-access-areas
+msgid "Access Area updated."
+msgstr "Area d'Accesso aggiornata"
+
+#: inc/class-undisclosedcaps.php:175
+#, php-format
+#@ wp-access-areas
+msgid "Access Area deleted."
+msgid_plural "%d Access Areas deleted."
+msgstr[0] "Area d'Accesso cancellata."
+msgstr[1] "Cancellate %d Aree d'Accesso"
+
+#: inc/class-undisclosedcaps.php:178
+#@ wp-access-areas
+msgid "An Access Area with that Name already exists."
+msgstr "Un Area d'Accesso con questo nome esiste già"
+
+#: inc/class-undisclosedcaps.php:199
+#: inc/class-undisclosedusers.php:254
+#@ wp-access-areas
+msgctxt "access area"
+msgid "Add New"
+msgstr "Aggiungi Nuova"
+
+#: inc/class-undisclosededitpost.php:80
+#: inc/class-undisclosededitpost.php:345
+#@ wp-access-areas
+msgid "Access"
+msgstr "Accesso"
+
+#: inc/class-undisclosededitpost.php:232
+#@ wp-access-areas
+msgid "WordPress default"
+msgstr "WordPress Predefinito"
+
+#: inc/class-undisclosededitpost.php:403
+#: inc/class-undisclosededitpost.php:409
+#@ wp-access-areas
+msgid "Blog users"
+msgstr "Utente Blog"
+
+#: inc/class-undisclosededitpost.php:237
+#@ wp-access-areas
+msgid "WordPress roles"
+msgstr "Ruolo WordPress"
+
+#: inc/class-undisclosededitpost.php:184
+#@ wp-access-areas
+msgid "Who can comment:"
+msgstr "Chi può commentare"
+
+#: inc/class-undisclosededitpost.php:390
+#@ wp-access-areas
+msgid "Visible to"
+msgstr "Visibile da"
+
+#: inc/class-undisclosededitpost.php:403
+#: inc/class-undisclosededitpost.php:409
+#@ wp-access-areas
+msgid "Everybody"
+msgstr "Tutti"
+
+#: inc/class-undiscloseduserlabel.php:74
+#@ wp-access-areas
+msgid "(Network)"
+msgstr "(Rete)"
+
+#: inc/class-undisclosedusers.php:189
+#@ wp-access-areas
+msgid "Grant Network-Wide Access"
+msgstr "Concedi l'Accesso a livello di Rete"
+
+#: inc/class-undisclosedusers.php:195
+#@ wp-access-areas
+msgid "Grant Access"
+msgstr "Concedi Accesso"
+
+#: inc/class-undisclosedusers.php:273
+#@ wp-access-areas
+msgid "Access Areas:"
+msgstr "Aree d'Accesso:"
+
+#: inc/class-undisclosedusers.php:285
+#@ default
+msgid "(None)"
+msgstr "(Nessuno)"
+
+#: inc/class-undisclosedusers.php:309
+#@ default
+msgid "Everywhere"
+msgstr "Ovunque"
+
+#: inc/class-userlabel_list_table.php:42
+#@ wp-access-areas
+msgid "Name"
+msgstr "Nome"
+
+#: inc/class-userlabel_list_table.php:45
+#@ wp-access-areas
+msgid "Scope"
+msgstr "Scopo"
+
+#: inc/class-userlabel_list_table.php:83
+#@ wp-access-areas
+msgid "Network"
+msgstr "Rete"
+
+#: inc/class-userlabel_list_table.php:75
+#: inc/class-userlabel_list_table.php:91
+#: inc/class-userlabel_list_table.php:145
+#@ default
+msgid "Delete"
+msgstr "Cancella"
+
+#: inc/class-undisclosedcaps.php:181
+#@ wp-access-areas
+msgid "Could not find the specified Access Area."
+msgstr "Area d'Accesso non trovata."
+
+#: inc/class-undisclosededitpost.php:246
+#@ wp-access-areas
+msgid "Users with Access to"
+msgstr "Utenti con Accesso a"
+
+#: inc/class-undisclosededitpost.php:168
+#@ wp-access-areas
+msgid "Who can read:"
+msgstr "Chi può leggere"
+
+#: inc/class-undisclosededitpost.php:176
+#@ wp-access-areas
+msgid "Who can edit:"
+msgstr "Chi può modificare"
+
+#. translators: plugin header field 'Name'
+#: wp-access-areas.php:0
+#@ wp-access-areas
+msgid "WordPress Access Areas"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#: wp-access-areas.php:0
+#@ wp-access-areas
+msgid "http://wordpress.org/plugins/wp-access-areas/"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: wp-access-areas.php:0
+#@ wp-access-areas
+msgid "Lets you define Access Areas and assign them to Posts, Pages and Custom Post types. Through Access Areas you can fine-tune who can view, edit or comment on your posts."
+msgstr "Consente di definire Aree di Accesso e di assegnare loro post, pagine e post personalizzati. Attraverso le Aree di Accesso è possibile ottimizzare chi può visualizzare, modificare o commentare i tuoi post."
+
+#. translators: plugin header field 'Author'
+#: wp-access-areas.php:0
+#@ wp-access-areas
+msgid "Joern Lund"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: wp-access-areas.php:0
+#@ wp-access-areas
+msgid "https://github.com/mcguffin/"
+msgstr ""
+
+#: inc/class-undisclosededitpost.php:234
+#@ wp-access-areas
+msgid "Logged in Users"
+msgstr "Utenti Loggati"
+
+#: inc/class-undisclosededitpost.php:391
+#@ wp-access-areas
+msgid "Commentable to"
+msgstr "Commentabile da"
+
+#: inc/class-userlabel_list_table.php:47
+#@ wp-access-areas
+msgid "WP Capability"
+msgstr ""
+
+#: inc/class-undisclosededitpost.php:83
+#@ wp-access-areas
+msgid "Behaviour"
+msgstr "Comportamento"
+
+#: inc/class-undisclosededitpost.php:281
+#@ wp-access-areas
+msgid "Show 404"
+msgstr "Mostra 404"
+
+#: inc/class-undisclosededitpost.php:285
+#@ wp-access-areas
+msgid "Redirect to the fallback page."
+msgstr "Reindirizzamento alla pagina di fallback."
+
+#: inc/class-undisclosededitpost.php:202
+#: inc/class-undisclosedsettings.php:59
+#@ wp-access-areas
+msgid "If somebody tries to view a restricted post directly:"
+msgstr "Se qualcuno tenta di visualizzare direttamente un post riservato:"
+
+#: inc/class-undisclosededitpost.php:210
+#@ wp-access-areas
+msgid "Fallback Page"
+msgstr "Pagina di Fallback"
+
+#: inc/class-undisclosededitpost.php:350
+#@ wp-access-areas
+msgid "Read:"
+msgstr "Leggi:"
+
+#: inc/class-undisclosededitpost.php:352
+#: inc/class-undisclosededitpost.php:361
+#: inc/class-undisclosededitpost.php:370
+#@ default
+msgid "&mdash; No Change &mdash;"
+msgstr "&mdash; Nessun Cambiamento &mdash;"
+
+#: inc/class-undisclosededitpost.php:359
+#@ wp-access-areas
+msgid "Edit:"
+msgstr "Modifica:"
+
+#: inc/class-undisclosededitpost.php:368
+#@ wp-access-areas
+msgid "Comment:"
+msgstr "Commento:"
+
+#: inc/class-undisclosedusers.php:82
+#: inc/class-undisclosedusers.php:98
+#@ wp-access-areas
+msgid "Insufficient privileges."
+msgstr "Privilegi insufficienti."
+
+#: inc/class-undisclosedusers.php:92
+#@ wp-access-areas
+msgid "Access Area exists."
+msgstr "Area d'Accesso esistente."
+
+#: inc/class-undisclosedusers.php:256
+#@ default
+msgid "+"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: wp-access-areas.php:0
+#@ wp-access-areas
+msgid "1.2.1"
+msgstr ""
+
+#: inc/class-undisclosededitpost.php:289
+#@ wp-access-areas
+msgid "If not logged in, redirect to login. Otherwise redirect to the fallback page."
+msgstr ""
+"Se non autenticato, ridirigi sulla pagina di login. Altrimenti ridirigi alla \n"
+"pagina di fallback."
+
+#: inc/class-undisclosedsettings.php:24
+#@ wp-access-areas
+msgid "Access Settings"
+msgstr ""
+
+#: inc/class-undisclosedsettings.php:29
+#@ wp-access-areas
+msgid "Restricted Access Behavior"
+msgstr ""
+
+#: inc/class-undisclosedsettings.php:30
+#@ wp-access-areas
+msgid "Default Behaviour"
+msgstr ""
+
+#: inc/class-undisclosedsettings.php:31
+#@ wp-access-areas
+msgid "Default Fallback Page"
+msgstr ""
+
+#: inc/class-undisclosedsettings.php:43
+#@ wp-access-areas
+msgid "Access Areas Settings"
+msgstr ""
+
+#: inc/class-undisclosedsettings.php:50
+#@ wp-access-areas
+msgid "You can also set these Options for each post individually."
+msgstr ""
+
+#: inc/class-undisclosedsettings.php:51
+#@ default
+msgid "Save Changes"
+msgstr ""
+

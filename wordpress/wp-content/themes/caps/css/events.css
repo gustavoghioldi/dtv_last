@@ -1,0 +1,76 @@
+.EO_Event_List_Widget{
+	color: rgba(0, 0, 0, .4);	
+}
+
+
+.sidebar .widget.EO_Event_List_Widget .title:after,
+.sidebar .widget.EO_Event_List_Widget .title span:before,
+.sidebar .widget.EO_Event_List_Widget .title span:after{
+	display: none;
+}
+
+.sidebar .widget.EO_Event_List_Widget .title{
+	
+	margin-bottom: 10px;
+	color: #fff;
+	font-size: 14px;
+	border-top: none;
+}
+
+
+ .sidebar .widget.EO_Event_List_Widget .title:before{
+	display: none;
+}
+
+
+
+.sidebar .widget.EO_Event_List_Widget .title span{
+	background: url(../images/ball.png) no-repeat left center;
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+	margin: 0 7%;
+	padding-left: 30px;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.EO_Event_List_Widget .eo-events-widget{
+	padding: 0px 0 40px;
+	margin: 25px 15px 0 20px;
+	background: url(../images/player.png) no-repeat right top;
+}
+
+.EO_Event_List_Widget .eo-events-widget li {
+	padding-bottom: 3px;
+	border: none;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+.EO_Event_List_Widget .eo-events-widget li:before{
+	display: none;
+}
+
+.EO_Event_List_Widget .eo-events-widget li a{
+	color: #fff;
+	display: inline-block;
+    width: 50%;
+}
+
+.eo-event-meta,
+.event-meta-list{
+	padding: 0;
+	font-size: 13px;
+	list-style: none;
+}
+
+.eo-event-meta{
+	width: 100% !important;
+}
+
+.eo-event-meta li strong,
+.event-meta-list li span{
+	width: 40%;
+	display: inline-block;
+	font-size: 14px;
+}

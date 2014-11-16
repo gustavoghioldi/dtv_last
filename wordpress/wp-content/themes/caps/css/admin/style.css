@@ -1,0 +1,35 @@
+.3boxs {
+	overflow: hidden;
+}
+
+.page-build-widgets-style {
+	background: #ccc;
+	float: left;
+	margin-right: 1%;
+	padding: 1%;
+	width: 22%;
+}
+
+.pagebuild-style {
+	background: #ccc;
+	float: left;
+	margin-right: 1%;
+	padding: .5%;
+	width: 23%;	
+}
+
+.page-build-position {
+	position: relative;
+}
+
+.post-body-content {
+	position: relative;
+}
+
+.grid-pagebuild-input-style {
+	width: 580px;
+}
+
+.default-image-visibility {
+	visibility: hidden;
+}

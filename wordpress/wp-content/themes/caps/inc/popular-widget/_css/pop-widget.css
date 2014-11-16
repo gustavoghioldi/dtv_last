@@ -1,0 +1,166 @@
+/**
+ * Image Store - Front-end
+ *
+ * @file pop-widget.css
+ * @package Popular Widget
+ * @author Hafid Trujillo
+ * @copyright 20010-2013
+ * @filesource  wp-content/plugins/image-store/_css/pop-widget.css
+ * @since 0.5.0
+ */
+
+.pop-layout-v {
+	overflow: hidden;
+}
+
+ul.pop-widget-tabs{
+	list-style:none;
+	width:100%;
+	padding:0!important;
+	float: left;
+	margin-bottom: 4px;
+	position: relative;
+}
+
+
+
+ul.pop-widget-tabs li{
+	padding: 0;
+	float:left;
+	display:inline;
+	line-height:40px;	
+	font-weight:bold;
+	margin: 0;
+	font-size:11px;
+	list-style:none;
+	cursor:pointer;
+	width: 33.33%;
+
+}
+
+ul.pop-widget-tabs li:last-child a {
+	border-right: none;	
+	margin-right: 0;
+}
+
+ul.pop-widget-tabs li a{
+	text-align: center;
+	text-transform: uppercase;
+	display:block;
+	padding: 0;
+	text-decoration:none;
+	background: #f6f6f6;
+	margin-right: 2%;
+}
+
+ul.pop-widget-tabs li a{
+	padding: 0;
+	font-size:14px;
+	font-weight: normal;
+}
+
+ul.pop-widget-tabs li a.active{   
+    position: relative;
+}
+
+ul.pop-widget-tabs li a.active:before{
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	background: #000;
+	content: "";
+	top: 0;
+	left: 0;
+}
+
+
+ul.pop-widget-tabs li a.active{
+	text-decoration:none;
+    position: relative;
+   
+}
+
+ul.pop-widget-tabs li a.active span{
+	display: inline-block;
+    position: relative;
+}
+
+ul.pop-widget-tabs li a.active span:before{
+	position: absolute;
+	margin-top: -4px;
+    padding-top: 4px;
+    border-style: solid;
+    border-width: 4px 0 0;
+    width: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+}
+
+ul.pop-widget-tabs li a.active:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	background: #eaeaea;
+	bottom: -3px;
+	left: 0;
+	z-index: 1;
+}
+
+div.pop-inside{
+	float: left;
+	width: 100%;
+	padding:0;
+	border: none;
+	margin:0;
+}
+
+.sidebar .single-content-small{
+	background: #f6f6f6;
+	margin-top: 4px;
+}
+
+.sidebar .single-content-small .right-desc{
+	border-bottom: none;
+}
+
+.sidebar .single-content-small .full-width h5,
+.sidebar .single-content-small .full-width .meta-info{
+	padding: 0 5px;
+}
+
+div.pop-inside ul li:first-child .single-content-small{
+	margin-top: 0;
+}
+
+div.pop-inside ul{border:none;padding:0;display:block;list-style:none;position:relative;margin:0!important;}
+div.pop-inside ul li{margin:0;list-style:none;position:relative;padding: 0;border-bottom:none;}
+
+div.pop-inside ul li .entry-summary{clear:none;display:block;margin:0 0 5px;padding:0;font-size:.9em;}
+div.pop-inside ul li .pop-title{clear:none;font-weight:bold;margin:0 0 3px;padding:0;}
+div.pop-inside ul li .pop-summary{display:block;}
+div.pop-inside ul li a{cursor:pointer;text-decoration:none;font-weight:normal}
+div.pop-inside ul li:hover,
+div.pop-inside ul li:active,
+div.pop-inside ul li:focus{background: none;}
+div.pop-inside ul li a:hover,
+div.pop-inside ul li a:active,
+div.pop-inside ul li a:focus{text-decoration:none;}
+div.pop-inside ul li p{margin:0;padding:0;}
+div.pop-inside ul li img{display:block;margin:0 auto;height:auto}
+div.pop-inside br.pop-cl{clear:both;content:'';display:block;}
+div.pop-inside br.pop-cl:after,
+div.pop-inside br.pop-cl:before{content:''}
+
+div.pop-inside ul li .pop-overlay{bottom:0;opacity:.8;display:block;padding:5px;background-color:#444;position:absolute;}
+
+div.pop-inside ul li .pop-rating{float:left;width:12px;color:#FFF;font-size:.9em;padding:0 3px;display:block;margin-right:5px;text-align:center;line-height:120%;background-color:#666;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+
+div.pop-inside ul li:first-child{border-bottom:none;margin:0;}.pop-layout-v div.pop-inside ul li .pop-overlay{opacity:1;display:inline;padding:0;background:none;position:static;}
+
+div.pop-inside ul.wp-tag-cloud{width:auto;height:auto;padding:5px 8px !important;}
+div.pop-inside ul.wp-tag-cloud li{padding:0;width:auto;display:inline-block;word-break:break-all;word-wrap:break-word;border-bottom:none;}
+div.pop-inside ul.wp-tag-cloud a:hover,
+div.pop-inside ul.wp-tag-cloud a:focus,
+div.pop-inside ul.wp-tag-cloud a:active{text-decoration:underline}

@@ -1,0 +1,318 @@
+/*
+Theme Name: caps
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+.latest-title span{
+  float: right;
+  margin-right: 0;
+  margin-left: 23px;
+}
+
+.right-menu{
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.menu-language li img{
+  float: right;
+  padding-right: 0;
+  padding-left: 4px;
+}
+
+.header-ads img,
+.social-icons{
+  float: left;  
+}
+
+.language{
+  float: left;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+#panel .lwa-submit-links input {
+    float: right;
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+#panel .lwa-submit-button input,
+#panel .content label{
+  float: right;
+}
+
+#panel h1,
+#panel .lwa-submit-links a{
+  text-align: right;
+}
+
+#panel .content .left img{
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+#panel .content{
+  text-align: right;
+}
+
+.row .nav > li{
+  float: right;
+}
+
+.nav li ul{
+  right: -9999px;
+  left: auto;
+}
+
+.nav > li.hover > ul {
+    left: auto;
+    right: 0;  
+}
+
+
+.nav li.megamenu ul{
+  right: auto;
+  left: -9999px;
+}
+
+.form-search .search-query{
+  right: auto;
+  left: 59px;
+  border-width: 0 1px 0 0;
+}
+
+.pop-layout-v div.pop-inside ul li img{
+  float: right;
+  margin: 0 0 0 10px;
+}
+
+.category-meta, 
+.count-comment, 
+.author-meta, 
+.date-meta, 
+.post-meta-info .date-meta{
+   margin-left: 0 !important;
+  margin-right: 15px;
+  padding-left: 0;
+  padding-right: 25px;
+  background-position: right !important;
+}
+
+.date-meta, 
+.post-meta-info .date-meta{
+  margin-right: 0;
+}
+
+.read-more-post{
+  float: right;
+  margin-right: 0;
+  margin-left: 3px;
+}
+
+.owl-carousel .owl-item{
+  float: none !important;
+}
+
+.owl-post-slider .owl-buttons{
+  right: auto;
+  left: 8px;
+}
+
+.single-content-small img {
+    float: right;
+    margin-right: 0;
+    margin-left: 6%;
+}
+
+.single-content-small .image-wrap {
+    float: right;
+    margin-left: 6%;
+    margin-right: 0;
+    width: 21%;
+}
+
+.eemail_button,
+.eemail_textbox{
+  float: right;
+}
+
+.eemail_textbox input{
+  padding-right: 15px;
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.arrow-up{
+  right: auto;
+  left: 10px;
+}
+
+.owl-next:before,
+.owl-prev:before{
+  left: auto;
+  right: 0;
+}
+
+.footer-nav{
+  float: left;
+}
+
+.zoom-icon,
+.footer-nav li{
+  float: left;
+}
+
+.ssba > div{
+  text-align: right !important;
+}
+
+.author-desc img {
+    float: right;
+    margin-left: 27px;
+    margin-right: 0;
+}
+
+.navbar-nav > li:last-child {
+  border-right: none !important;  
+}
+
+.navbar-nav > li:first-child {
+  border-right: 1px solid #eaeaea;
+}
+
+.single-post .tagcloud a,
+.tagcloud a{
+  float: right !important;
+}
+
+blockquote:before{
+  left: auto;
+  right: 0;
+  border-right: 7px solid #d9d9d9;     
+  border-left: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-top: 7px solid transparent; 
+}
+
+ul.pop-widget-tabs li{
+  float: right;
+}
+
+ul.pop-widget-tabs li:last-child {
+  border-left: none;
+  border-right: 1px solid #eaeaea;
+}
+
+.facebook-container iframe{
+  margin-left: 0;
+  margin-right: -10px;
+}
+
+.sidebar .ssba img{
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+.widget > ul > li{
+  padding-right: 20px;
+  padding-left: 0;
+}
+
+.widget > ul > li:before{
+  content: "\f053";
+  left: auto;
+  right: 0;
+}
+
+.today-icon{
+  float: left;
+}
+
+.sidebar .widget.widget_caps_weather_widget .title span{
+   padding-left: 17px;
+   padding-right: 30px;
+}
+
+.sidebar .widget.widget_caps_weather_widget .title span{
+  background-position: right center;
+}
+
+.sidebar .ssba a:nth-child(4n) img{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.sidebar .widget.EO_Event_List_Widget .title span{
+  background-position: right center;
+  padding-right: 30px;
+  padding-left: 0;
+}
+
+.EO_Event_List_Widget .eo-events-widget{
+  margin: 25px 20px 0 15px;
+  background-position: left top;
+}
+
+.sidebar .widget.EO_Event_List_Widget .title:before{
+  right: 12%;
+  left: auto;  
+}
+
+.nav > li.menu-item-has-children > a {
+    padding-left: 36px;
+    padding-right: 24px;
+}
+
+.nav > li.menu-item-has-children > a:after {
+    background-position: left center;   
+    left: 20px;
+    right: auto;
+}
+
+.form-search i{
+  float: left;
+}
+
+.sidebar .widget.JBWeatherWidget .title, 
+.sidebar .widget.widget_caps_weather_widget .title{
+  text-align: left;
+}
+
+.jbw-left{
+  text-align: left;
+}
+
+.sidebar .jbmww_wrapper .jbww_head_today_wind_speed, 
+.sidebar .jbmww_wrapper .jbww_head_today_wind_direction{
+  float: left;
+}
+
+.jbmww_wrapper .jbww_head_today_wind_direction p{
+  background-position: right !important;
+}
+
+
+
+@media screen and (max-width: 767px) {
+   
+  .row .nav > li {
+    width: 100%;
+  }
+
+  .nav .menu-item-has-children .more{
+    left: 0;
+    right: auto;
+    border-right: 1px solid #E9E9E9;
+    border-left: none;
+  }
+
+  .nav li a {
+    padding: 0 5px 0 0 !important;
+  }
+
+}

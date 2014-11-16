@@ -1,0 +1,289 @@
+/***** clearfix *****/
+#dashboard-panel {
+	position: relative;
+}
+
+.clear {clear: both;height: 0;line-height: 0;}
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+.clearfix {height: 1%;}
+.clearfix {display: block;}
+
+
+#toggle .close {
+	opacity: 1;
+}
+
+#toggle .close:hover, #toggle .close:focus {
+	opacity: 1;
+}
+
+/* sliding panel */
+#panel {
+	width: 100%;
+	color: #fff;
+	overflow: hidden;
+	position: absolute;
+	z-index: 999;
+	display: none;
+}
+
+#panel h1 {
+	font-size: 1.6em;
+	padding: 5px 0 10px;
+	margin: 0;
+	color: white;
+	text-align: left;
+}
+
+#panel h2{
+	font-size: 1.2em;
+	padding: 10px 0 5px;
+	margin: 0;
+	color: white;
+	text-align: left;
+}
+
+#panel p {
+	margin: 5px 0;
+	padding: 0;
+}
+
+#panel .content {
+	/*width: 960px;
+	margin: 0 auto;*/
+	padding: 0;
+	text-align: left;
+	font-size: 0.85em;
+}
+
+
+#panel .content .left h1 {
+	text-transform: uppercase;
+}
+
+#panel .content .left img {
+	border: 2px solid #fff;
+	width: 36px;
+	height: 36px;
+	margin-right: 10px;
+}
+
+#panel .content .border {
+	/*border-left: 1px solid #808080*/
+}
+
+#panel .content .left .lwa table {
+	width: 100%;
+}
+
+.container .content .left .lwa table tr {
+	width: 100%;
+}
+
+.container .content .left p {
+	color: #fff;
+}
+
+.container .content .left .signup-dashboard {
+	padding: 12px 25px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	display: inline-block;
+	background: rgba( 255, 255, 255, 0.2);
+	font-size: 16px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.container .content .left .avatar {
+	border-radius: 50%;
+	-o-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-ms-border-radius: 50%;
+}
+
+.container .content .left ul li a {
+	color: #fff;
+}
+
+
+.container .lwa-submit-links input{
+	margin-right: 5px;
+	float: left;
+}
+
+.container .lwa-submit-links a{
+	width: 100%;
+	float: left;
+	color: #fff;
+}	
+
+.container .lwa-password input,
+.container .lwa-username input,
+.container .lwa-email input,
+.container .lwa-remember-email input {
+	border: 1px solid rgba( 255, 255, 255, 0.2 );
+	background: none;
+	color: #fff;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.container .lwa-submit-button {
+	padding-top: 0;
+}
+
+.container .loggedin ul{
+	text-align: right;
+}
+
+.container .loggedin li a,
+.container .lwa-submit-button input {
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	display: inline-block;
+	background: rgba( 255, 255, 255, 0.2);
+	font-size: 16px;
+	position: relative;
+	border: none;
+	line-height: 43px;
+	border: 1px solid transparent;
+	 -webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.container .loggedin li a{
+	font-size: 11px;
+	line-height: 18px;
+	padding: 0 8px;
+}
+
+.container .loggedin li a:hover,
+.container .lwa-submit-button input:hover{
+	border: 1px solid #fff;
+	color: #fff !important;
+}
+
+.container .lwa-rememberme{
+	
+}
+
+.container .lwa td{
+	padding-top: 0;
+}
+
+.topbar-widget{
+	padding: 0 18px 20px;
+	overflow: hidden;
+}
+
+.topbar-widget h3{
+	color: #fff;
+}
+
+.lwa-submit-links ul{
+	overflow: hidden;
+}
+
+.lwa-submit-links ul li{
+	line-height: 20px;
+	margin-bottom: 0;
+	padding-right: 30px;
+} 
+
+.lwa-submit-links ul li span{
+	float: left;
+}
+
+.top-nav-background .lwa-submit-links ul li a{
+	font-size: 12px;
+	line-height: 20px;
+}
+
+#panel .lwa-submit-links ul li a:hover{
+	color: #fff !important;
+	text-decoration: underline;
+}
+
+.lwa-submit-links ul li label{
+	margin: 0;
+}
+/* BUTTONS */
+/* Login and Register buttons */
+.avatar img{
+	padding-right: 20px;
+	float: left;
+}
+
+.loggedin h4{
+	margin-top: 0;
+}
+
+.container .loggedin h4{
+	color: #fff;
+}
+
+.container .loggedin p{
+	line-height: normal;
+	font-size: 13px;
+}
+
+.sidebar .widget_loginwithajaxwidget > div{
+	padding: 15px;
+}
+
+.sidebar .widget_loginwithajaxwidget td{
+	display: block;
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+.sidebar .widget_loginwithajaxwidget .loggedin .lwa-info,
+.sidebar .widget_loginwithajaxwidget .loggedin td{
+	display: inline;	
+}
+
+
+
+.sidebar .widget_loginwithajaxwidget td input{
+	line-height: 42px;
+}
+
+.lwa{
+	margin-bottom: 0;
+}
+
+.lwa .lwa-modal{
+	border-radius: 0;
+	-o-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+.lwa-register-form label{
+	width: 100%;
+}
+
+.button-primary{
+	padding: 10px 20px;
+	color: #fff;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+	.container.loggedin .content .left {
+		padding: 10px 25px 5px;
+	}
+}
+
+
+
+
+

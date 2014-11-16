@@ -1,0 +1,410 @@
+/*
+Theme Name: caps
+Description: Used to style the TinyMCE editor.
+*/
+
+@font-face {
+  font-family: PTSansRegular;
+  src: url('../fonts/PT_Sans-Web-Regular.ttf');
+}
+
+@font-face {
+  font-family: OpenSansBold;
+  src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: OpenSansBoldItalic;
+  src: url('../fonts/OpenSans-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: OpenSansExtraBoldItalic;
+  src: url('../fonts/OpenSans-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: OpenSansItalic;
+  src: url('../fonts/OpenSans-Italic.ttf');
+}
+
+@font-face {
+  font-family: OpenSansLight;
+  src: url('../fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+  font-family: OpenSansRegular;
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+body { color: #808080;; font-family: OpenSansRegular; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0em; line-height: 22px; text-decoration: none; text-transform: none;  }
+.top-nav-background a { color: #949494; font-family: OpenSansRegular; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; line-height: normal; letter-spacing: 0em; text-decoration: none; text-transform: uppercase;  }
+.header .navbar-nav a { color: #000000; font-family: OpenSansRegular; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0em; text-decoration: none; text-transform: uppercase;  }
+.header .navbar-nav ul a { color: #000000; font-family: OpenSansRegular; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0em; line-height: 22px; text-decoration: none; text-transform: none;  }
+.footer h3 { color: #000000; font-family: OpenSansBold; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0em; line-height: 22px; text-decoration: none; text-transform: uppercase;  }
+.footer p { color: #000000; font-family: OpenSansRegular; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0em; line-height: 22px; text-decoration: none; text-transform: none;  }
+.footer a { color: #000000; font-family: OpenSansRegular; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0em; line-height: 22px; text-decoration: none; text-transform: uppercase;  }
+h1 { color: #000000; font-family: OpenSansBold; font-size: 36px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0em; line-height: 50px; text-decoration: none; text-transform: uppercase;  }
+h2 { color: #000000; font-family: OpenSansBold; font-size: 24px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0em; line-height: 40px; text-decoration: none; text-transform: uppercase;  }
+h3 { color: #000000; font-family: OpenSansSemiBold; font-size: 18px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0em; line-height: 30px; text-decoration: none; text-transform: uppercase;  }
+h4 { color: #000000; font-family: OpenSansBold; font-size: 16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0em; line-height: 24px; text-decoration: none; text-transform: uppercase;  }
+h5 { color: #000000; font-family: OpenSansBold; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0em; line-height: 22px; text-decoration: none; text-transform: uppercase;  }
+h6 { color: #000000; font-family: OpenSansBold; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0em; line-height: 18px; text-decoration: none; text-transform: uppercase;  }
+.bredcrumbs li, .bredcrumbs a { font-size: 13px; }
+.page-title { font-size: 24px; }
+.sidebar h3 { font-size: 13px; }
+.copyright { font-size: 12px; }
+a{ color: #3A3A3A}
+a:hover, a:focus, a:active{ color: #3A3A3A}.header { background-color: #FFFFFF; }.main-menu-header, .form-search i, .navbar-nav > li, .nav li ul { border-color: #EAEAEA; }.top-nav-background { background-color: #3A3A3A; }.main-container{ background-color: #FFFFFF; }a { color: #3A3A3A; }.footer p { color: Array; }.footer ul li a { color: Array; }@media (min-width: 768px) {
+}
+
+label {
+	font-weight: normal;
+}
+
+blockquote{	
+	background: #f9f9f9;
+	font-style: italic;
+	margin: 40px 0 40px;
+	position: relative;
+	padding: 20px 60px;
+}
+
+blockquote:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 43%;
+	border-left: 7px solid #d9d9d9;     
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-top: 7px solid transparent; 
+}
+
+blockquote p{
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+
+/* =Headings
+-------------------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	line-height: 1.846153846;
+	margin: 24px 0;
+	margin: 1.714285714rem 0;
+}
+h1 {
+	font-size: 21px;
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+h2 {
+	font-size: 18px;
+	font-size: 1.285714286rem;
+	line-height: 1.6;
+}
+h3 {
+	font-size: 16px;
+	font-size: 1.142857143rem;
+}
+h4 {
+	font-size: 14px;
+	font-size: 1rem;
+}
+h5 {
+	font-size: 13px;
+	font-size: 0.928571429rem;
+}
+h6 {
+	font-size: 12px;
+	font-size: 0.857142857rem;
+}
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin: 24px;
+	margin-bottom: 1.714285714rem;
+}
+
+
+/* =Text elements
+-------------------------------------------------------------- */
+
+p {
+	line-height: 1.714285714;
+	margin: 0 0 24px;
+	margin: 0 0 1.714285714rem;
+}
+ul,
+ol {
+	margin: 0 0 24px;
+	margin: 0 0 1.714285714rem;
+	line-height: 1.714285714;
+	padding: 0;
+}
+ul {
+	list-style: disc outside;
+}
+ol {
+	list-style: decimal outside;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	margin-bottom: 0;
+}
+li {
+	margin: 0 0 0 24px;
+	margin: 0 0 0 1.714285714rem;
+}
+dl {
+	margin: 0 24px;
+	margin: 0 1.714285714rem;
+}
+dt {
+	font-weight: bold;
+	margin-bottom: 24px;
+	margin-bottom: 1.714285714rem;
+}
+dd {
+	line-height: 1.714285714;
+	margin: 0 0 24px;
+	margin: 0 0 1.714285714rem;
+}
+strong {
+	font-weight: bold;
+}
+cite,
+em,
+i {
+	font-style: italic;
+}
+cite {
+	border: none;
+}
+big {
+	font-size: 128.571429%;
+}
+.mceContentBody blockquote {
+	font-style: italic !important;
+	font-weight: normal;
+	margin: 0;
+	padding: 24px;
+	padding: 1.714285714rem;
+}
+pre {
+	border: 1px solid #ededed;
+	color: #666;
+	font-family: Consolas, Monaco, Lucida Console, monospace;
+	font-size: 12px;
+	font-size: 0.857142857rem;
+	line-height: 1.714285714;
+	margin: 24px 0;
+	margin: 1.714285714rem 0;
+	overflow: auto;
+	padding: 24px;
+	padding: 1.714285714rem;
+}
+code,
+kbd,
+samp,
+var {
+	font-family: Consolas, Monaco, Lucida Console, monospace;
+	font-size: 12px;
+	font-size: 0.857142857rem;
+	line-height: 2;
+}
+abbr,
+acronym,
+dfn {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+address {
+	display: block;
+	line-height: 1.714285714;
+	margin: 0 0 24px;
+	margin: 0 0 1.714285714rem;
+}
+del {
+	color: #808080;;
+}
+ins {
+	background: #fff9c0;
+	border: none;
+	color: #808080;;
+	text-decoration: none;
+}
+sup,
+sub {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+input[type="text"] {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-family: inherit;
+	padding: 6px;
+	padding: 0.428571429rem;
+}
+textarea {
+	border: 1px solid #d5d2ca;
+	border-radius: 3px;
+	font-family: inherit;
+	font-size: 12px;
+	font-size: 0.857142857rem;
+	line-height: 1.714285714;
+	padding: 10px;
+	padding: 0.714285714rem;
+	width: 96%;
+}
+
+
+/* =Links
+-------------------------------------------------------------- */
+
+a,
+a em,
+a strong {
+	color: #21759b;
+	outline: none;
+}
+a:focus,
+a:active,
+a:hover {
+	color: #0f3647;
+}
+
+
+/* =Alignment
+-------------------------------------------------------------- */
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin: 12px 24px 12px 0;
+	margin: 0.857142857rem 1.714285714rem 0.857142857rem 0;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin: 12px 0 12px 24px;
+	margin: 0.857142857rem 0 0.857142857rem 1.714285714rem;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-top: 12px;
+	margin-top: 0.857142857rem;
+	margin-bottom: 12px;
+	margin-bottom: 0.857142857rem;
+}
+
+
+/* =Tables
+-------------------------------------------------------------- */
+
+table {
+	border-bottom: 1px solid #ededed;
+	border-collapse: collapse;
+	border-spacing: 0;
+	color: #757575;
+	font-size: 12px;
+	font-size: 0.857142857rem;
+	line-height: 2;
+	margin: 0 0 24px;
+	margin: 0 0 1.714285714rem;
+	width: 100%;
+}
+tr th {
+	color: #636363;
+	font-size: 11px;
+	font-size: 0.785714286rem;
+	font-weight: bold;
+	line-height: 2.181818182;
+	text-align: left;
+	text-transform: uppercase;
+}
+td {
+	border-top: 1px solid #ededed !important;
+	color: #757575;
+	font-size: inherit;
+	font-weight: normal;
+	padding: 6px 10px 6px 0;
+	text-align: left;
+}
+
+
+/* =Images
+-------------------------------------------------------------- */
+
+img,
+.editor-attachment {
+	border: 0;
+	border-radius: 3px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	max-width: 100%;
+}
+img.size-full {
+	width: auto/9; /* Prevent stretching of full-size images in IE8 */
+}
+img[class*="wp-image-"] {
+	height: auto;
+	max-width: 100%;
+}
+img[class*="align"],
+img[class*="wp-image-"],
+img[class*="attachment-"] {
+	height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+}
+img.mceWPnextpage {
+	border-radius: 0;
+	box-shadow: none;
+}
+img.wp-smiley {
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+.wp-caption {
+	background: transparent;
+	border: none;
+	margin: 0;
+	padding: 4px;
+	text-align: left;
+}
+.wp-caption-dt {
+	margin: 0;
+}
+.wp-caption .wp-caption-text,
+.wp-caption-dd {
+	color: #757575;
+	font-style: italic;
+	font-size: 12px;
+	font-size: 0.857142857rem;
+	line-height: 2;
+	margin: 0 0 24px;
+	margin: 0 0 1.71429rem;
+}
